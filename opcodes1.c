@@ -37,7 +37,7 @@ void stack_pall(stack_t **mystack, unsigned int linenum)
 	if (mystack == NULL)
 		exit(EXIT_FAILURE);
 	ts = *mystack;
-	
+
 	while (ts != NULL)
 	{
 		printf("%d\n", ts->n);
@@ -54,12 +54,12 @@ void stack_pint(stack_t **mystack, unsigned int linenum)
 {
 	if (mystack == NULL || *mystack == NULL)
 		error_msg2(6, linenum);
-	
+
 	printf("%d\n", (*mystack)->n);
 }
 /*TASK 2*/
 /**
- * pop_top - removes the top element of the stack.
+ * stack_poptop - removes the top element of the stack.
  * @mystack: Pointer to stack top node.
  * @linenum: Opcode line number.
  */
