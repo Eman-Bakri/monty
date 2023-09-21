@@ -44,7 +44,7 @@ void stack_multops(stack_t **mystack, unsigned int linenum)
 
 /*TASK 9*/
 /**
- * mod_nodes - computes the mod of division.
+ * stack_mod - computes the mod of division.
  * @mystack: Pointer to stack top node.
  * @linenum: Opcode line number.
  */

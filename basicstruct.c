@@ -2,7 +2,7 @@
 
 /**
  * node_new - makes a new node.
- * @num: Num inside the node.
+ * @n: Num inside the node.
  * Return: A pointer to node. Otherwise NULL (fails).
  */
 stack_t *node_new(int n)
@@ -15,7 +15,7 @@ stack_t *node_new(int n)
 	newNod->next = NULL;
 	newNod->prev = NULL;
 	newNod->n = n;
-	
+
 	return (newNod);
 }
 
@@ -30,7 +30,7 @@ void queue_add(stack_t **newNod, __attribute__((unused))unsigned int linenum)
 
 	if (newNod == NULL || *newNod == NULL)
 		exit(EXIT_FAILURE);
-	
+
 	if (head == NULL)
 	{
 		head = *newNod;

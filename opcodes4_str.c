@@ -49,7 +49,7 @@ void stack_pstr(stack_t **mystack, __attribute__((unused))unsigned int linenum)
 }
 /*TASK 13*/
 /**
- * rotl - rotates the stack to the top.
+ * stack_rotl - rotates the stack to the top.
  * @mystack: Pointer to stack top node.
  * @linenum: Opcode line number.
  */
@@ -73,7 +73,7 @@ void stack_rotl(stack_t **mystack, __attribute__((unused))unsigned int linenum)
 
 /*TASK 14*/
 /**
- * rotr - rotates the stack to the bottom.
+ * stack_rotr - rotates the stack to the bottom.
  * @mystack: Pointer to stack top node.
  * @linenum: Opcode line number.
  */
