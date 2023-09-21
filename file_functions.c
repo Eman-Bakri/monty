@@ -124,7 +124,8 @@ void func_exec(char *opcode, char *argval, int linenum, int arrstyle)
  * @linenum: line numeber.
  * @arrstyle: arrangement specifier.
  */
-void func_exec2(op_func reqfunc, char *opstring, char *strval, int linenum, int arrstyle)
+void func_exec2(op_func reqfunc, char *opstring,
+		char *strval, int linenum, int arrstyle)
 {
 	stack_t *mynode;
 	int check;
